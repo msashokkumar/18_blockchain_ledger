@@ -65,25 +65,43 @@ streamlit run pychain.py
 ---
 ## Demo Screenshots
 
-1. Booting up streamlit app via terminal
+#### Booting up streamlit app via terminal
 ![Streamlit Boot up](./media/images/01_streamlit_terminal_bootup.png)
-2. PyChain Homepage
+
+---
+#### PyChain Homepage
 ![PyChain Homepage](./media/images/02_pychain_homepage.png)
-3. Adding first block
+
+---
+#### Adding first block
 ![Adding first block](./media/images/03_first_block_added.png)
-4. After adding 9 blocks
+
+---
+#### After adding 9 blocks
 ![After adding 9 blocks](./media/images/04_10_blocks_added.png)
-5. Complete Ledger
+
+---
+#### Complete Ledger
 ![Complete Ledger](./media/images/05_complete_ledger.png)
-6. Block Inspector
+
+---
+#### Block Inspector
 ![Block Inspector](./media/images/06_block_inspector.png)
-7. Block Inspector displaying a block
+
+---
+#### Block Inspector displaying a block
 ![Block Inspector displaying a block](./media/images/07_block_inspector_with_block.png)
-8. Validating the Chain
+
+---
+#### Validating the Chain
 ![Validating the Chain](./media/images/08_validate_chain.png)
-9. Terminal displaying hashes and validation
+
+---
+#### Terminal displaying hashes and validation
 ![Terminal displaying hashes and validation](./media/images/09_streamlit_terminal_final.png)
-10. Streamlit app design configuration
+
+---
+#### Streamlit app design configuration
 ![Streamlit app design configuration](./media/images/10_streamlit_conflg_toml.png)
 
 ---
