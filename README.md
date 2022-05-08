@@ -66,6 +66,7 @@ streamlit run pychain.py
 ## Demo Screenshots
 
 1. Booting up streamlit app via terminal
+![](/Users/ashok/berkley/fintech-workspace/18_blockchain_ledger/media/images/01_streamlit_terminal_bootup.png)
 2. PyChain Homepage
 3. Adding first block
 4. After adding 9 blocks
