@@ -72,10 +72,7 @@ class Record:
 
 @dataclass
 class Block:
-    # @TODO
-    # Rename the `data` attribute to `record`, and set the data type to `Record`
     record: Record
-
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
@@ -186,11 +183,8 @@ if st.button("Add Block"):
     prev_block = pychain.chain[-1]
     prev_block_hash = prev_block.hash_block()
 
-    # @TODO
-    # Update `new_block` so that `Block` consists of an attribute named `record`
-    # which is set equal to a `Record` that contains the `sender`, `receiver`,
-    # and `amount` values
-
+    # Update the input record of Record class to be added to the block
+    # based on the data capture via streamlit app
     input_record = Record(sender=sender_data,
                           receiver=receiver_data,
                           amount=amount_data)
@@ -252,3 +246,5 @@ if st.button("Validate Chain"):
 # Take a screenshot of the Streamlit application page, which should indicate
 # the validity of the blockchain. Include the screenshot in the `README.md`
 # file for your Challenge repository.
+
+# Screenshots added to the README.md file
